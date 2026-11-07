@@ -1,0 +1,1 @@
+{"id":"revisor-pr","version":"1.0.0","name":"Revisor de PR","description":"Encontra defeitos concretos em mudanças de código e explica o impacto antes do merge.","category":"programacao","author":"Bithub","avatarSeed":"bit:2:0:16","featured":true,"tags":["revisão","pull request","git","qualidade"],"skills":["revisao-com-evidencias","verificacao-direcionada"]}
