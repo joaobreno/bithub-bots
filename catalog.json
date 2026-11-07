@@ -3,12 +3,12 @@
   "bots": [
     {
       "id": "arquiteto-bots",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "Arquiteto de Bots",
       "description": "Projeta agentes especializados e avalia melhorias a partir das conversas e rotinas disponibilizadas pelo usuário.",
       "category": "produtividade",
       "author": "Bithub",
-      "avatarSeed": "bit:5:0:15",
+      "avatarSeed": "bit:6:0:5",
       "featured": true,
       "tags": [
         "agentes",
@@ -42,12 +42,12 @@
     },
     {
       "id": "assistente-executivo",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "Assistente Executivo",
       "description": "Organiza reuniões, compromissos, respostas pendentes e conflitos em um resumo acionável do dia.",
       "category": "produtividade",
       "author": "Bithub",
-      "avatarSeed": "bit:0:0:16",
+      "avatarSeed": "bit:1:0:4",
       "featured": true,
       "tags": [
         "agenda",
@@ -74,12 +74,12 @@
     },
     {
       "id": "assistente-suporte",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "Assistente de Suporte",
       "description": "Prepara respostas ao cliente, organiza o diagnóstico interno e reúne informações para encaminhar o caso.",
       "category": "escrita",
       "author": "Bithub",
-      "avatarSeed": "bit:1:1:6",
+      "avatarSeed": "bit:3:0:4",
       "featured": false,
       "tags": [
         "suporte",
@@ -106,12 +106,12 @@
     },
     {
       "id": "criador-habilidades",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "Criador de Habilidades",
       "description": "Transforma procedimentos recorrentes e uso de APIs em habilidades Markdown reutilizáveis e verificáveis.",
       "category": "produtividade",
       "author": "Bithub",
-      "avatarSeed": "bit:5:2:15",
+      "avatarSeed": "bit:2:0:6",
       "featured": false,
       "tags": [
         "skills",
@@ -178,12 +178,12 @@
     },
     {
       "id": "critico-design",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "Crítico de Design",
       "description": "Analisa interfaces a partir da tarefa do usuário e prioriza melhorias concretas de usabilidade e apresentação.",
       "category": "produtividade",
       "author": "Bithub",
-      "avatarSeed": "bit:3:1:10",
+      "avatarSeed": "bit:6:0:12",
       "featured": false,
       "tags": [
         "design",
@@ -310,12 +310,12 @@
     },
     {
       "id": "planejador-tarefas",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "name": "Planejador de Tarefas",
       "description": "Transforma objetivos em etapas executáveis, com prioridades, dependências e critérios de conclusão.",
       "category": "planejamento",
       "author": "Bithub",
-      "avatarSeed": "bit:3:0:8",
+      "avatarSeed": "bit:0:0:1",
       "featured": false,
       "tags": [
         "escopo",
@@ -341,12 +341,12 @@
     },
     {
       "id": "revisor-pr",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "name": "Revisor de PR",
       "description": "Revisa mudanças com atenção a regressões e segurança, apontando evidências e a correção necessária.",
       "category": "programacao",
       "author": "Bithub",
-      "avatarSeed": "bit:2:0:16",
+      "avatarSeed": "bit:2:0:11",
       "featured": true,
       "tags": [
         "revisão",
@@ -379,12 +379,12 @@
     },
     {
       "id": "revisor-seguranca",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "name": "Revisor de Segurança",
       "description": "Encontra riscos de segurança no código com evidências, contexto de impacto e propostas de correção.",
       "category": "programacao",
       "author": "Bithub",
-      "avatarSeed": "bit:6:0:5",
+      "avatarSeed": "bit:5:0:9",
       "featured": false,
       "tags": [
         "segurança",
@@ -410,12 +410,12 @@
     },
     {
       "id": "revisor-textos",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "name": "Revisor de Textos",
       "description": "Revisa clareza e tom na voz do autor, preserva os fatos e explica as mudanças relevantes.",
       "category": "escrita",
       "author": "Bithub",
-      "avatarSeed": "bit:4:3:9",
+      "avatarSeed": "bit:5:0:18",
       "featured": false,
       "tags": [
         "texto",

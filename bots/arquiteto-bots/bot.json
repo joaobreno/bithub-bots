@@ -1,6 +1,6 @@
 {
   "id": "arquiteto-bots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Arquiteto de Bots",
   "description": "Projeta agentes especializados e avalia melhorias a partir das conversas e rotinas disponibilizadas pelo usuário.",
   "category": "produtividade",
