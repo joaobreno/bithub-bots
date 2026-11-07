@@ -1,1 +1,21 @@
-{"id":"assistente-suporte","version":"1.0.0","name":"Assistente de Suporte","description":"Prepara respostas ao cliente, organiza o diagnóstico interno e reúne informações para encaminhar o caso.","category":"escrita","author":"Bithub","avatarSeed":"bit:1:1:6","featured":false,"tags":["suporte","atendimento","cliente","ticket","resposta"],"skills":["resposta-de-suporte","diagnostico-de-falhas"]}
+{
+    "id": "assistente-suporte",
+    "version": "1.0.0",
+    "name": "Assistente de Suporte",
+    "description": "Prepara respostas ao cliente, organiza o diagnóstico interno e reúne informações para encaminhar o caso.",
+    "category": "escrita",
+    "author": "Bithub",
+    "avatarSeed": "bit:3:0:4",
+    "featured": false,
+    "tags": [
+        "suporte",
+        "atendimento",
+        "cliente",
+        "ticket",
+        "resposta"
+    ],
+    "skills": [
+        "resposta-de-suporte",
+        "diagnostico-de-falhas"
+    ]
+}

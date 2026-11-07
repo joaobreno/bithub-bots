@@ -1,1 +1,21 @@
-{"id":"revisor-textos","version":"1.1.0","name":"Revisor de Textos","description":"Revisa clareza e tom na voz do autor, preserva os fatos e explica as mudanças relevantes.","category":"escrita","author":"Bithub","avatarSeed":"bit:4:3:9","featured":false,"tags":["texto","português","revisão","comunicação","voz"],"skills":["revisao-de-clareza","preservacao-de-intencao"]}
+{
+    "id": "revisor-textos",
+    "version": "1.1.0",
+    "name": "Revisor de Textos",
+    "description": "Revisa clareza e tom na voz do autor, preserva os fatos e explica as mudanças relevantes.",
+    "category": "escrita",
+    "author": "Bithub",
+    "avatarSeed": "bit:5:0:18",
+    "featured": false,
+    "tags": [
+        "texto",
+        "português",
+        "revisão",
+        "comunicação",
+        "voz"
+    ],
+    "skills": [
+        "revisao-de-clareza",
+        "preservacao-de-intencao"
+    ]
+}
