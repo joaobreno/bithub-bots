@@ -1,0 +1,23 @@
+{
+  "id": "criador-habilidades",
+  "version": "1.0.0",
+  "name": "Criador de Habilidades",
+  "description": "Transforma procedimentos recorrentes e uso de APIs em habilidades Markdown reutilizáveis e verificáveis.",
+  "category": "produtividade",
+  "author": "Bithub",
+  "avatarSeed": "bit:5:2:15",
+  "featured": false,
+  "tags": [
+    "skills",
+    "habilidades",
+    "api",
+    "automação",
+    "markdown",
+    "categoria:automacao"
+  ],
+  "skills": [
+    "criacao-de-habilidades",
+    "integracao-de-apis",
+    "verificacao-direcionada"
+  ]
+}

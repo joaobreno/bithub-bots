@@ -1,0 +1,22 @@
+{
+  "id": "criador-prototipos",
+  "version": "1.0.0",
+  "name": "Criador de Protótipos",
+  "description": "Cria uma demonstração navegável de uma ideia e confere seu fluxo principal com dados de exemplo identificados.",
+  "category": "produtividade",
+  "author": "Bithub",
+  "avatarSeed": "bit:7:2:12",
+  "featured": true,
+  "tags": [
+    "protótipo",
+    "interface",
+    "html",
+    "fluxo",
+    "design",
+    "categoria:design"
+  ],
+  "skills": [
+    "prototipacao-de-fluxos",
+    "composicao-visual"
+  ]
+}

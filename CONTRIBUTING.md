@@ -3,7 +3,9 @@
 1. Crie uma pasta `bots/<id>` com identificador em letras minúsculas, números e hífens.
 2. Copie os campos de um `bot.json` existente. O `id` deve corresponder à pasta.
    Use versão `MAJOR.MINOR.PATCH`, nome, descrição curta, autor e palavras-chave.
-   Categorias: `programacao`, `produtividade`, `pesquisa`, `escrita`, `planejamento`.
+   Categorias-base: `programacao`, `produtividade`, `pesquisa`, `escrita`, `planejamento`.
+   Para os grupos Design ou Automação, use `produtividade` e acrescente respectivamente
+   a tag `categoria:design` ou `categoria:automacao`. Isso preserva clientes antigos.
 3. Escreva `INSTRUCTIONS.md`: objetivo, entradas, método, entrega e limites. Não inclua
    credenciais, dados pessoais nem ações automáticas sem solicitação.
 4. Reutilize habilidades existentes ou crie `skills/<id>/SKILL.md`. O cabeçalho tem
@@ -25,6 +27,10 @@ conexão real antes de recomendar um bot para uma tarefa.
 Incremente a versão sempre que alterar conteúdo ou metadados de um bot, inclusive
 habilidades compartilhadas que o compõem. Versões publicadas não devem mudar. O Bithub
 também compara o conteúdo para identificar uma alteração sem incremento de versão.
+
+A composição e os destaques escolhidos nesta migração são conferidos por um teste
+editorial e por `migrations/openbot-selection.json`. Se uma nova seleção mudar essas
+decisões, atualize a fixture e os resultados esperados junto do conteúdo.
 
 Publicar uma alteração em `main` atualiza o catálogo consultado pelo Bithub. Bots já
 adicionados continuam locais; o usuário decide quando aplicar a nova versão. Retirar

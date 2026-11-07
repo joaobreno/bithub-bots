@@ -1,0 +1,22 @@
+{
+  "id": "critico-design",
+  "version": "1.0.0",
+  "name": "Crítico de Design",
+  "description": "Analisa interfaces a partir da tarefa do usuário e prioriza melhorias concretas de usabilidade e apresentação.",
+  "category": "produtividade",
+  "author": "Bithub",
+  "avatarSeed": "bit:3:1:10",
+  "featured": false,
+  "tags": [
+    "design",
+    "ux",
+    "interface",
+    "usabilidade",
+    "crítica",
+    "categoria:design"
+  ],
+  "skills": [
+    "avaliacao-de-interface",
+    "composicao-visual"
+  ]
+}

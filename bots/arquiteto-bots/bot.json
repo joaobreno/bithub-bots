@@ -1,0 +1,23 @@
+{
+  "id": "arquiteto-bots",
+  "version": "1.0.0",
+  "name": "Arquiteto de Bots",
+  "description": "Projeta agentes especializados e avalia melhorias a partir das conversas e rotinas disponibilizadas pelo usuário.",
+  "category": "produtividade",
+  "author": "Bithub",
+  "avatarSeed": "bit:5:0:15",
+  "featured": true,
+  "tags": [
+    "agentes",
+    "bots",
+    "habilidades",
+    "rotinas",
+    "automação",
+    "categoria:automacao"
+  ],
+  "skills": [
+    "projeto-de-bots",
+    "analise-de-friccao",
+    "revisao-de-automacoes"
+  ]
+}

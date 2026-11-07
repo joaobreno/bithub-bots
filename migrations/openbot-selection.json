@@ -1,0 +1,18 @@
+{
+  "sourceRepository": "nightly-labs/openbot",
+  "catalogBlob": "06070b57c7cb6a2d0041a486c4f2bfaee5e35ee9",
+  "selected": [
+    {"source":"code-review-partner","target":"revisor-pr","featured":true},
+    {"source":"debugging-partner","target":"investigador-bugs","featured":false},
+    {"source":"application-security-reviewer","target":"revisor-seguranca","featured":false},
+    {"source":"qa-tester","target":"testador-qa","featured":true},
+    {"source":"prototype-builder","target":"criador-prototipos","featured":true},
+    {"source":"design-critic","target":"critico-design","featured":false},
+    {"source":"chief-of-staff","target":"assistente-executivo","featured":true},
+    {"source":"copy-editor","target":"revisor-textos","featured":false},
+    {"source":"customer-support-partner","target":"assistente-suporte","featured":false},
+    {"source":"skill-smith","target":"criador-habilidades","featured":false},
+    {"source":"dr-eggbot","target":"arquiteto-bots","featured":true}
+  ],
+  "preserved": ["planejador-tarefas", "escritor-documentacao", "pesquisador"]
+}

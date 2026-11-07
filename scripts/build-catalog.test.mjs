@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
+import { mkdtemp, mkdir, writeFile, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { buildCatalog } from './build-catalog.mjs';
@@ -63,4 +63,35 @@ test('recusa aparência que o BitAvatar não suporta', async t => {
   const { root, metadata } = await fixture(t);
   await writeFile(join(root, 'bots/revisor/bot.json'), JSON.stringify({ ...metadata, avatarSeed: 'bit:2:5:23' }));
   await assert.rejects(buildCatalog(root), /aparência/i);
+});
+
+test('preserva subcategorias em tags compatíveis com o formato existente', async t => {
+  const { root, metadata } = await fixture(t);
+  for (const category of ['design', 'automacao']) {
+    await writeFile(join(root, 'bots/revisor/bot.json'), JSON.stringify({ ...metadata, category:'produtividade', tags:[`categoria:${category}`] }));
+    const bot = (await buildCatalog(root)).bots[0];
+    assert.equal(bot.category, 'produtividade');
+    assert.deepEqual(bot.tags, [`categoria:${category}`]);
+  }
+});
+
+test('o schema publicado aceita versões válidas e recusa versões incompletas', async () => {
+  const schema = JSON.parse(await readFile(new URL('../catalog.schema.json', import.meta.url), 'utf8'));
+  const version = new RegExp(schema.$defs.bot.properties.version.pattern);
+  assert.equal(version.test('1.0.0'), true);
+  assert.equal(version.test('1.1.0'), true);
+  assert.equal(version.test('1.0'), false);
+});
+
+test('o catálogo cobre a seleção e mantém somente os cinco destaques escolhidos', async () => {
+  const root = new URL('../', import.meta.url);
+  const { fileURLToPath } = await import('node:url');
+  const catalog = await buildCatalog(fileURLToPath(root));
+  const selection = JSON.parse(await readFile(new URL('../migrations/openbot-selection.json', import.meta.url), 'utf8'));
+  const selectedIds = selection.selected.map(item => item.target);
+  assert.equal(selectedIds.length, 11);
+  for (const id of selectedIds) assert.equal(catalog.bots.filter(bot => bot.id === id).length, 1, `Bot selecionado: ${id}`);
+  assert.deepEqual(catalog.bots.filter(bot => bot.featured).map(bot => bot.id).sort(), ['arquiteto-bots','assistente-executivo','criador-prototipos','revisor-pr','testador-qa']);
+  assert.deepEqual(catalog.bots.map(bot => bot.id).sort(), [...selectedIds, ...selection.preserved].sort());
+  for (const bot of catalog.bots) assert.ok(['programacao','produtividade','pesquisa','escrita','planejamento'].includes(bot.category), `Categoria compatível: ${bot.id}`);
 });
