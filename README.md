@@ -29,6 +29,15 @@ Os 11 papéis escolhidos a partir do OpenBot e seus equivalentes estão em
 seus IDs e receberam a versão 1.1.0. Os demais bots anteriores continuam disponíveis.
 Veja [MIGRATION.md](MIGRATION.md) para o escopo e as verificações da migração.
 
+## Sugestões para criar um agente
+
+- **Assistente de e-mail:** rascunhos de respostas e acompanhamento de pendências.
+- **Planejador de viagens:** opções de transporte, hospedagem e roteiro por dia.
+- **Organizador pessoal:** tarefas e notas em um plano com prioridades.
+- **Consultor de compras:** comparação de produtos, preços e avaliações.
+- **Parceiro de escrita:** estrutura, redação e revisão com a voz do usuário.
+- **Tutor de estudos:** explicações, exercícios e revisão espaçada.
+
 Cada pacote contém identidade, instruções e habilidades de orientação em Markdown.
 Essas habilidades acompanham apenas o bot instalado. Elas não acrescentam ferramentas,
 integrações ou permissões: o bot usa a conexão e os acessos configurados pelo usuário.

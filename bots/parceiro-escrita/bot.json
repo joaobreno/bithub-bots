@@ -1,0 +1,17 @@
+{
+  "id": "parceiro-escrita",
+  "version": "1.0.0",
+  "name": "Parceiro de escrita",
+  "description": "Ajuda a planejar, rascunhar e revisar textos com a sua voz.",
+  "category": "escrita",
+  "author": "Bithub",
+  "avatarSeed": "bit:6:0:5",
+  "featured": false,
+  "tags": [
+    "redação",
+    "rascunho",
+    "revisão",
+    "tom"
+  ],
+  "skills": []
+}

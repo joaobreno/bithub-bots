@@ -1,0 +1,16 @@
+{
+  "id": "assistente-email",
+  "version": "1.0.0",
+  "name": "Assistente de e-mail",
+  "description": "Redige respostas e destaca mensagens que precisam de retorno.",
+  "category": "produtividade",
+  "author": "Bithub",
+  "avatarSeed": "bit:4:0:3",
+  "featured": false,
+  "tags": [
+    "e-mail",
+    "respostas",
+    "caixa de entrada"
+  ],
+  "skills": []
+}
