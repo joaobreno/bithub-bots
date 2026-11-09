@@ -31,6 +31,7 @@ Veja [MIGRATION.md](MIGRATION.md) para o escopo e as verificações da migraçã
 
 ## Sugestões para criar um agente
 
+- **Assistente Pessoal:** tarefas do dia a dia e delegação a bots especializados.
 - **Assistente de e-mail:** rascunhos de respostas e acompanhamento de pendências.
 - **Planejador de viagens:** opções de transporte, hospedagem e roteiro por dia.
 - **Organizador pessoal:** tarefas e notas em um plano com prioridades.

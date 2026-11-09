@@ -1,0 +1,12 @@
+{
+  "id": "assistente-pessoal",
+  "version": "1.0.0",
+  "name": "Assistente Pessoal",
+  "description": "Resolve tarefas do dia a dia e delega sempre que houver um especialista.",
+  "category": "produtividade",
+  "author": "Bithub",
+  "avatarSeed": "bit:7:0:4",
+  "featured": false,
+  "tags": ["assistente pessoal", "rotina", "tarefas", "delegação", "coordenação"],
+  "skills": []
+}
