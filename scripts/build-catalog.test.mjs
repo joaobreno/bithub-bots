@@ -83,7 +83,7 @@ test('o schema publicado aceita versões válidas e recusa versões incompletas'
   assert.equal(version.test('1.0'), false);
 });
 
-test('o catálogo cobre a seleção e mantém somente os cinco destaques escolhidos', async () => {
+test('o catálogo inclui a seleção, os bots preservados e as sugestões de criação', async () => {
   const root = new URL('../', import.meta.url);
   const { fileURLToPath } = await import('node:url');
   const catalog = await buildCatalog(fileURLToPath(root));
@@ -92,6 +92,7 @@ test('o catálogo cobre a seleção e mantém somente os cinco destaques escolhi
   assert.equal(selectedIds.length, 11);
   for (const id of selectedIds) assert.equal(catalog.bots.filter(bot => bot.id === id).length, 1, `Bot selecionado: ${id}`);
   assert.deepEqual(catalog.bots.filter(bot => bot.featured).map(bot => bot.id).sort(), ['arquiteto-bots','assistente-executivo','criador-prototipos','revisor-pr','testador-qa']);
-  assert.deepEqual(catalog.bots.map(bot => bot.id).sort(), [...selectedIds, ...selection.preserved].sort());
+  const suggestions = ['assistente-email', 'planejador-viagens', 'organizador-pessoal', 'consultor-compras', 'parceiro-escrita', 'tutor-estudos'];
+  assert.deepEqual(catalog.bots.map(bot => bot.id).sort(), [...selectedIds, ...selection.preserved, ...suggestions].sort());
   for (const bot of catalog.bots) assert.ok(['programacao','produtividade','pesquisa','escrita','planejamento'].includes(bot.category), `Categoria compatível: ${bot.id}`);
 });

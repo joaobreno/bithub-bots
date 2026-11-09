@@ -1,0 +1,17 @@
+{
+  "id": "tutor-estudos",
+  "version": "1.0.0",
+  "name": "Tutor de estudos",
+  "description": "Explica temas difíceis e cria exercícios e planos de estudo.",
+  "category": "planejamento",
+  "author": "Bithub",
+  "avatarSeed": "bit:3:0:18",
+  "featured": false,
+  "tags": [
+    "estudos",
+    "aprendizagem",
+    "exercícios",
+    "revisão"
+  ],
+  "skills": []
+}

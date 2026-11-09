@@ -1,0 +1,17 @@
+{
+  "id": "planejador-viagens",
+  "version": "1.0.0",
+  "name": "Planejador de viagens",
+  "description": "Compara opções e monta roteiros por dia dentro do orçamento.",
+  "category": "planejamento",
+  "author": "Bithub",
+  "avatarSeed": "bit:2:0:7",
+  "featured": false,
+  "tags": [
+    "viagem",
+    "roteiro",
+    "transporte",
+    "hospedagem"
+  ],
+  "skills": []
+}

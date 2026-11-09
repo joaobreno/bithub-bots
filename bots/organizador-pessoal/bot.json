@@ -1,0 +1,17 @@
+{
+  "id": "organizador-pessoal",
+  "version": "1.0.0",
+  "name": "Organizador pessoal",
+  "description": "Transforma notas, tarefas e pendências em um plano com prioridades.",
+  "category": "produtividade",
+  "author": "Bithub",
+  "avatarSeed": "bit:5:0:2",
+  "featured": false,
+  "tags": [
+    "tarefas",
+    "rotina",
+    "prioridades",
+    "notas"
+  ],
+  "skills": []
+}

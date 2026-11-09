@@ -1,0 +1,17 @@
+{
+  "id": "consultor-compras",
+  "version": "1.0.0",
+  "name": "Consultor de compras",
+  "description": "Compara produtos, preços e avaliações para ajudar você a decidir.",
+  "category": "pesquisa",
+  "author": "Bithub",
+  "avatarSeed": "bit:1:0:4",
+  "featured": false,
+  "tags": [
+    "compras",
+    "comparação",
+    "preço",
+    "produtos"
+  ],
+  "skills": []
+}
