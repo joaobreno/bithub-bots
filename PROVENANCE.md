@@ -25,6 +25,11 @@ ou redistribuição dos bundles do OpenBot. A [licença do OpenBot](https://gith
 descreve licenças próprias para conteúdos adaptados de terceiros. Esses conteúdos não
 foram incorporados neste catálogo.
 
+Em novembro de 2026, as habilidades em `skills/` foram ampliadas para procedimentos completos
+(quando usar, entradas, passos, critérios, formato de entrega, limites e erros frequentes),
+adaptados às ferramentas do Bithub. As habilidades de referência foram usadas apenas para
+comparar escopo e profundidade; o texto foi escrito para este repositório, sem tradução.
+
 Não há vínculo oficial entre os projetos. Os nomes originais aparecem apenas para
 rastrear a seleção. Os pacotes do Bithub usam avatares Bit e o formato de habilidades
 Markdown já suportado. Capacidades externas dependem da conexão do usuário.

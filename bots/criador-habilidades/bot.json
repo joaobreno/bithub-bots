@@ -1,6 +1,6 @@
 {
   "id": "criador-habilidades",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "name": "Criador de Habilidades",
   "description": "Transforma procedimentos recorrentes e uso de APIs em habilidades Markdown reutilizáveis e verificáveis.",
   "category": "produtividade",

@@ -1,6 +1,6 @@
 {
     "id": "assistente-suporte",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "name": "Assistente de Suporte",
     "description": "Prepara respostas ao cliente, organiza o diagnóstico interno e reúne informações para encaminhar o caso.",
     "category": "escrita",
